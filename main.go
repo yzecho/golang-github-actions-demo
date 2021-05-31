@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+func Cat() string {
+	return "miao~~"
+}
+
 func main() {
-	fmt.Println("hello world")
+	saying := Cat()
+	fmt.Println(saying)
 }
