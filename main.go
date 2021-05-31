@@ -6,12 +6,8 @@ func Cat() string {
 	return "miao~~"
 }
 
-var (
-	password = "123456"
-)
-
 func main() {
-
+	var password = "12343fsFBKkfasdfbw4352f32R543F"
 	fmt.Printf("mysql password is %s", password)
 	saying := Cat()
 	fmt.Println(saying)
